@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+    />
+    <title>The Files Sprint</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <canvas id="game" aria-label="The Files Sprint"></canvas>
+
+      <div id="hud">
+        <div class="pill"><span id="score">0</span>m</div>
+        <div class="pill"><span id="dodged">0</span> dodged</div>
+      </div>
+
+      <div id="overlay" class="show">
+        <div class="card">
+          <h1>The Files Sprint</h1>
+          <p>Tap anywhere to jump over <b>“THE FILES”</b>.</p>
+          <p class="small">One control. One tap. Survive.</p>
+          <button id="startBtn">Tap to Start</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
